@@ -6,16 +6,16 @@
 
 ```
 $ python exploit.py -h
-usage: exploit.py [-h] --user USER --password PASS --host URL --command CMD
+usage: exploit.py [-h] -u USER -p PASS -i URL -c CMD
 
 Umbraco authenticated RCE
 
 optional arguments:
   -h, --help                show this help message and exit
-  --user USER, -u USER      username / email
-  --password PASS, -p PASS  password
-  --host URL, -i URL        root URL
-  --command CMD, -c CMD     command
+  -u USER, --user USER      username / email
+  -p PASS, --password PASS  password
+  -i URL, --host URL        root URL
+  -c CMD, --command CMD     command
 ```
 
 Example:
