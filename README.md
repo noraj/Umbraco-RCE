@@ -26,6 +26,6 @@ $ python exploit.py -u admin@example.org -p password123 -i 'http://10.0.0.1' -c 
 
 ## Reference
 
-This is a better re-write of [EDB-ID-46153](https://www.exploit-db.com/exploits/46153) and with stdout display.
+This is a better re-write of [EDB-ID-46153](https://www.exploit-db.com/exploits/46153) using arguments and with stdout display.
 
 Tested with python 3.8.
