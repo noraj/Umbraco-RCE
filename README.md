@@ -39,6 +39,6 @@ pacman -S python-beautifulsoup4 python-requests
 
 ## Reference
 
-This is a better re-write of [EDB-ID-46153](https://www.exploit-db.com/exploits/46153) using arguments and with stdout display.
+This is a better re-write of [EDB-ID-46153](https://www.exploit-db.com/exploits/46153) using arguments (instead of harcoded values) and with stdout display.
 
 Tested with python 3.8.
