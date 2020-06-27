@@ -37,6 +37,12 @@ Example for ArchLinux:
 pacman -S python-beautifulsoup4 python-requests
 ```
 
+Example using pip:
+
+```
+pip3 install -r requirements.txt
+```
+
 ## Reference
 
 This is a better re-write of [EDB-ID-46153](https://www.exploit-db.com/exploits/46153) using arguments (instead of harcoded values) and with stdout display.
