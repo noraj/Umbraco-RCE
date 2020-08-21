@@ -2,6 +2,8 @@
 
 > Umbraco CMS 7.12.4 - (Authenticated) Remote Code Execution
 
+[[PacketStorm](https://packetstormsecurity.com/files/158712/Umbraco-CMS-7.12.4-Remote-Code-Execution.html)] [[WLB-2020080012](https://cxsecurity.com/issue/WLB-2020080012)]
+
 ## Usage
 
 ```
